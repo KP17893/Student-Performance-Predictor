@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
     <div class="login">
@@ -109,8 +110,11 @@
             <input class="btn btn-primary" type="submit" value="Predict your Maths Score" required />
         </div>
     </form></div>
-    <h2>
-       THE  prediction is {{results}}
-    </h2>
+    <div class="result">
+        <h2>
+            THE  prediction is {{results}}
+        </h2>
+    </div>
+
 </body>
 </html>
