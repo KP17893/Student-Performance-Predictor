@@ -1,20 +1,21 @@
-Student Exam Performance Predictor
-This project predicts a student’s math exam score based on various input parameters such as gender, parental education level, test preparation, etc. It uses a Machine Learning regression model and includes a user-friendly Flask web application to showcase predictions interactively.
+# Student Exam Performance Predictor
 
-Features
-Predicts Math Score based on relevant input features.
+This project predicts a student’s **math exam score** using input features like gender, parental education, reading & writing scores, and more. It includes a **Machine Learning model** built with Scikit-learn and a **Flask web app** for easy user interaction.
 
-Uses structured and modular Machine Learning pipeline.
+---
 
-Interactive Flask-based web app for real-time predictions.
+## Features
 
-Clean project structure with separation of concerns: data, model, web app.
+- Predicts **Math Score** from relevant attributes
+- Trained ML model using **regression techniques**
+- **Flask web interface** for live input and output
+- Cleanly structured and modular project
 
-Tech Stack
-Python
+---
 
-Pandas, NumPy, Scikit-learn – for data preprocessing and modeling
+## Tech Stack
 
-Flask – for serving the model as a web application
-
-HTML/CSS – for the frontend interface
+- **Python 3.8+**
+- **Pandas, NumPy, Scikit-learn**
+- **Flask (for web app)**
+- **HTML/CSS (for frontend)**
