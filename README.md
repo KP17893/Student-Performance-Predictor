@@ -10,6 +10,7 @@ This project predicts a student’s **math exam score** using input features lik
 - Trained ML model using **regression techniques**
 - **Flask web interface** for live input and output
 - Cleanly structured and modular project
+- 88% accuracy
 
 ---
 
